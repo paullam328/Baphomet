@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 656d7141deef90949ab3f2d4308adb04
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playRenderTexture: {instanceID: 0}
+  - controlsRenderTexture: {instanceID: 0}
+  - creditsRenderTexture: {instanceID: 0}
+  - exitRenderTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

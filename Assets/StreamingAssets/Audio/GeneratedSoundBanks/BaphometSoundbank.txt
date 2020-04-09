@@ -1,0 +1,151 @@
+Event	ID	Name			Wwise Object Path	Notes
+	413690608	Portal_Destroy			\Environment\Portal_Destroy	
+	729984210	Amb_Stop			\Environment\Amb_Stop	
+	1117531639	Amb			\Environment\Amb	
+	1305133589	Player_Jump			\Characters\Player_Jump	
+	1342784432	ShadowBall_Cast			\Enemies\ShadowBall_Cast	
+	2004922858	Arrow_Hit			\Environment\Arrow_Hit	
+	2074073782	Player_Damage			\Characters\Player_Damage	General damage is here just in case, you can modify it at will 
+	2394582229	Player_Dash			\Characters\Player_Dash	
+	2583440997	Player_Fire			\Characters\Player_Fire	
+	3086941384	Portal_Idle			\Environment\Portal_Idle	
+	4276063004	Player_FS			\Characters\Player_FS	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4050929301	Materials			\Default Work Unit\Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	1153642577	Flesh	Materials			
+	1216965916	Stone	Materials			
+	2058049674	Wood	Materials			
+	2637588553	Tile	Materials			
+	3725073853	Cement	Materials			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3686139462	Area			\Default Work Unit\Area	
+
+State	ID	Name	State Group			Notes
+	0	None	Area			
+	1293351650	Theatre	Area			
+	2568407992	Church	Area			
+	3486066647	Diner	Area			
+	3827008220	GasStation	Area			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	111857556	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Wind\Grove\SoundSeed Air Wind	
+	606150867	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Wind\Polar Winds\SoundSeed Air Wind	
+	663109749	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Wind\Eerie Tunnel\SoundSeed Air Wind	
+	675627263	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Wind\Weeping Willows\SoundSeed Air Wind	
+	809721861	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Generic Weapon Swing\SoundSeed Woosh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39868255	Arrow_Hit_Concrete	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowImpact_2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\Arrow_Hit\Arrow_Hit_Concrete		14564
+	51567535	FS_Cement_Run 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 8_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 8		3184
+	52111445	Env_Groans_V2 10	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 10_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 10		26327
+	79478424	FS_Cement_Run 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 3		3140
+	80966144	Crossbow_Shot02	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Crossbow_Shot02_79BE5858.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Player_Fire_Arrow\Crossbow_Shot02		7458
+	87374767	FS_Wood_Run 10	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 10_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 10		6353
+	88445052	FS_Cement_Run 9	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 9_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 9		3362
+	89991990	Env_Groans_V2 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 5_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 5		14136
+	101204610	FS_Wood_Run 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 3		7343
+	118224429	FS_Tile_Run 9	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 9_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 9		3165
+	118392093	Env_Groans_V2 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 1_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 1		25308
+	122572447	Amb_DevilChords 12	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 12_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 12		81060
+	138035394	Player_Jump 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 4_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 4		5649
+	139985493	FS_Tile_Run 13	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 13_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 13		3323
+	152526304	Env_Groans_V2 17	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 17_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 17		24859
+	165828666	FS_Cement_Run 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 4_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 4		3084
+	170775920	FS_Tile_Run 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 3		3400
+	172667107	Env_Groans_V2 15	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 15_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 15		21813
+	176379649	FS_Cement_Run 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 7_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 7		3217
+	209314753	Amb_DevilChords 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 8_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 8		136849
+	218543721	ArrowImpact_Stone	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowImpact_Stone_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\Arrow_Hit\ArrowImpact_Stone		8913
+	224550855	FS_Wood_Run 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 4_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 4		7301
+	237321391	FS_Wood_Run 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 1		5897
+	267249292	Player_Jump 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 2		6480
+	268333408	Env_Groans_V2 9	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 9_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 9		17821
+	288132391	FS_Tile_Run 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 7_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 7		4350
+	294077006	Leah_Damage_02	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Leah_Damage_02_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\DX\Leah_Damage\Leah_Damage_02		3369
+	312141768	FS_Tile_Run 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 8_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 8		3183
+	326343281	FS_Wood_Run 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 8_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 8		4304
+	327500681	FS_Cement_Run 11	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 11_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 11		3418
+	342722884	FS_Tile_Run 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 4_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 4		2873
+	350683127	Player_Jump 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 8_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 8		4111
+	368061832	Amb_DevilChords 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 1_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 1		95688
+	371847632	Amb_DevilChords 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 4_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 4		126913
+	381632564	Amb_DevilChords 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 2_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 2		97030
+	390562461	FS_Cement_Run 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 5_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 5		3122
+	402222136	Env_Groans_V2 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 2_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 2		17323
+	406883678	Player_Jump 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 6_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 6		7522
+	410974865	FS_Tile_Run 10	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 10_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 10		3728
+	411393306	Amb_DevilChords 11	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 11_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 11		199011
+	423498552	Leah_Damage_05	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Leah_Damage_05_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\DX\Leah_Damage\Leah_Damage_05		5046
+	428848503	General_Damage	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\General_Damage_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\General_Damage		17670
+	432260370	Env_Groans_V2 11	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 11_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 11		33015
+	441932823	FS_Cement_Run 12	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 12_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 12		3173
+	442980678	Amb_DevilChords 9	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 9_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 9		106549
+	447824049	MainExplosion	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\MainExplosion_CC34E9FE.wem		\Actor-Mixer Hierarchy\Environment\SFX\Portal_Explosion\MainExplosion		107266
+	451334404	Env_Groans_V2 8	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 8_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 8		16061
+	482065282	Env_Groans_V2 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 6_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 6		13892
+	502902931	Leah_Damage_01	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Leah_Damage_01_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\DX\Leah_Damage\Leah_Damage_01		6474
+	527217619	FS_Wood_Run 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 7_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 7		2979
+	547136476	FS_Cement_Run 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 6_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 6		3020
+	561086760	FS_Tile_Run 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 6_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 6		4357
+	571627534	Amb_DevilChords 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 6_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 6		96866
+	588437492	FS_Wood_Run 6	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 6_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 6		6227
+	596799484	Dash_Leather_1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Dash_Leather_1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Dash\Dash_Leather\Dash_Leather_1		8936
+	611228282	Env_Groans_V2 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 3_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 3		9344
+	612133216	Dash_Wind_2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Dash_Wind_2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Dash\Dash_Wind\Dash_Wind_2		5847
+	624276708	FS_Tile_Run 14	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 14_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 14		3365
+	637348037	FS_Wood_Run 9	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 9_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 9		7060
+	639724504	Env_Groans_V2 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 7_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 7		21549
+	645651630	Dash_Leather_2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Dash_Leather_2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Dash\Dash_Leather\Dash_Leather_2		11120
+	679647489	Amb_DevilChords 10	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 10_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 10		102211
+	681617031	ArrowFly_2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowFly_2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Arrow_Wooshes\ArrowFly_2		13358
+	681931276	Leah_Damage_03	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Leah_Damage_03_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\DX\Leah_Damage\Leah_Damage_03		6023
+	682021866	Env_Groans_V2 4	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 4_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 4		17418
+	696471835	Env_Groans_V2 18	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 18_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 18		26578
+	724441074	FS_Tile_Run 12	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 12_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 12		3201
+	731993560	ArrowFly_3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowFly_3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Arrow_Wooshes\ArrowFly_3		9656
+	737539642	Env_Groans_V2 13	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 13_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 13		17979
+	751853384	Env_Groans_V2 16	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 16_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 16		35439
+	752841941	ArrowImpact	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowImpact_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\Arrow_Hit\Arrow_Hit_Flesh\ArrowImpact		10745
+	766693960	FS_Wood_Run 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 5_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 5		2972
+	774585831	FS_Tile_Run 15	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 15_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 15		3161
+	778075329	FS_Tile_Run 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 2		3349
+	788697115	ArrowImpact_3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowImpact_3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\Arrow_Hit\Arrow_Hit_Flesh\ArrowImpact_3		13917
+	793749492	Amb_DevilChords 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 5_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 5		30838
+	829403803	Player_Jump 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 3_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 3		5710
+	838405006	Shadowball_Cast_01	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Shadowball_Cast_01_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Effects\Shadowball_Cast_01		14943
+	841095384	FireWhoosh	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FireWhoosh_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Portal_Explosion\Explode_Start\FireWhoosh		15953
+	856896090	FS_Wood_Run 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 2		5901
+	857410087	Dash_Wind_1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Dash_Wind_1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Dash\Dash_Wind\Dash_Wind_1		4298
+	859496377	FS_Wood_Run 11	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Wood_Run\FS_Wood_Run 11_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Wood_Run\FS_Wood_Run 11		4952
+	873423189	Player_Jump 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 7_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 7		3261
+	876166957	Amb_DevilChords 13	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 13_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 13		76633
+	908910470	FS_Tile_Run 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 1		3090
+	919451291	Env_Groans_V2 12	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 12_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 12		31996
+	939582993	Player_Jump 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 5_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 5		8933
+	942179352	ArrowFly_1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ArrowFly_1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Arrow_Wooshes\ArrowFly_1		14251
+	943163087	Crossbow_Shot03	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Crossbow_Shot03_932C6748.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Player_Fire_Arrow\Crossbow_Shot03		7909
+	944190458	FS_Cement_Run 10	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 10_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 10		3352
+	946580107	FS_Tile_Run 11	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 11_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 11		3284
+	950110488	Player_Jump 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Player_Jump\Player_Jump 1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Jump\Player_Jump\Player_Jump 1		9484
+	963131321	FS_Tile_Run 5	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Tile_Run\FS_Tile_Run 5_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Tile_Run\FS_Tile_Run 5		2848
+	1000065934	Amb_DevilChords 3	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 3_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 3		171923
+	1003410858	Crossbow_Shot01	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Crossbow_Shot01_6AD86DE5.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_Fire\Player_Fire_Arrow\Crossbow_Shot01		12305
+	1010915743	FS_Cement_Run 2	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 2_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 2		2989
+	1019759709	FS_Cement_Run 1	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\FS_Cement_Run\FS_Cement_Run 1_838B90F1.wem		\Actor-Mixer Hierarchy\Characters\SFX\Actions\Player_FS\FS_Cement_Run\FS_Cement_Run 1		2854
+	1026076240	Amb_DevilChords 7	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_DevilChords 7_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_DevilsChords\Amb_DevilChords 7		96375
+	1041522304	PreExplosion	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\PreExplosion_26A2A69D.wem		\Actor-Mixer Hierarchy\Environment\SFX\Portal_Explosion\Explode_Start\PreExplosion		22488
+	1062891227	Env_Groans_V2 14	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Env_Groans_V2\Env_Groans_V2 14_838B90F1.wem		\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Groans\Env_Groans_V2 14		19669
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	59981377	HeavyFireRumble_Loop	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\HeavyFireRumble_Loop_B2A87F8F.wem	59981377.wem	\Actor-Mixer Hierarchy\Environment\SFX\Portal_Idle\HeavyFireRumble_Loop	
+	72732147	PortalEnergy_Loop	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\PortalEnergy_Loop_B2A87F8F.wem	72732147.wem	\Actor-Mixer Hierarchy\Environment\SFX\Portal_Idle\PortalEnergy_Loop	
+	135045206	Amb_Rain_Hi	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_Rain_Hi_B2A87F8F.wem	135045206.wem	\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Rain\Amb_Rain_Hi	
+	198725847	Amb_Rain_Lo	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_Rain_Lo_B2A87F8F.wem	198725847.wem	\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Rain\Amb_Rain_Lo	
+	510063930	ElectrickSparks_Loop	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\ElectrickSparks_Loop_B2A87F8F.wem	510063930.wem	\Actor-Mixer Hierarchy\Environment\SFX\Portal_Idle\ElectrickSparks_Loop	
+	965040224	Hell_Loop	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Hell_Loop_B2A87F8F.wem	965040224.wem	\Actor-Mixer Hierarchy\Environment\SFX\Portal_Idle\Hell_Loop	
+	986280041	Amb_Rain_TinRoof	C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\SFX\Amb_Rain_TinRoof_B2A87F8F.wem	986280041.wem	\Actor-Mixer Hierarchy\Environment\SFX\Amb\Amb_Rain\Amb_Rain_TinRoof	
+

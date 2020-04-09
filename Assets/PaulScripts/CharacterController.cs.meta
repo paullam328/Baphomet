@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3dbdbe0546e7f9e4ebf11217a492a6bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shootingPoint: {instanceID: 0}
+  - arrow: {instanceID: 0}
+  - goat: {instanceID: 0}
+  - baby: {instanceID: 0}
+  - evilVersion: {instanceID: 0}
+  - gargoyleSpawnManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

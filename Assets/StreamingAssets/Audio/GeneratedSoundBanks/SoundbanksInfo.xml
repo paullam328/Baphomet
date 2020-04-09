@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\xluce\Desktop\Baphomet Project\BaphometUnity\Assets\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\xluce\Desktop\Baphomet Project\BaphometWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="59981377" Language="SFX">
+			<ShortName>HeavyFireRumble_Loop.wav</ShortName>
+			<Path>SFX\HeavyFireRumble_Loop_B2A87F8F.wem</Path>
+		</File>
+		<File Id="72732147" Language="SFX">
+			<ShortName>PortalEnergy_Loop.wav</ShortName>
+			<Path>SFX\PortalEnergy_Loop_B2A87F8F.wem</Path>
+		</File>
+		<File Id="135045206" Language="SFX">
+			<ShortName>Amb_Rain_Hi.wav</ShortName>
+			<Path>SFX\Amb_Rain_Hi_B2A87F8F.wem</Path>
+		</File>
+		<File Id="198725847" Language="SFX">
+			<ShortName>Amb_Rain_Lo.wav</ShortName>
+			<Path>SFX\Amb_Rain_Lo_B2A87F8F.wem</Path>
+		</File>
+		<File Id="510063930" Language="SFX">
+			<ShortName>ElectrickSparks_Loop.wav</ShortName>
+			<Path>SFX\ElectrickSparks_Loop_B2A87F8F.wem</Path>
+		</File>
+		<File Id="965040224" Language="SFX">
+			<ShortName>Hell_Loop.wav</ShortName>
+			<Path>SFX\Hell_Loop_B2A87F8F.wem</Path>
+		</File>
+		<File Id="986280041" Language="SFX">
+			<ShortName>Amb_Rain_TinRoof.wav</ShortName>
+			<Path>SFX\Amb_Rain_TinRoof_B2A87F8F.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="224000536" Language="SFX">
+			<ObjectPath>\SoundBanks\Baphomet\BaphometSoundbank</ObjectPath>
+			<ShortName>BaphometSoundbank</ShortName>
+			<Path>BaphometSoundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1117531639" Name="Amb" ObjectPath="\Events\Environment\Amb" MaxAttenuation="100.000000"/>
+				<Event Id="729984210" Name="Amb_Stop" ObjectPath="\Events\Environment\Amb_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="2004922858" Name="Arrow_Hit" ObjectPath="\Events\Environment\Arrow_Hit"/>
+				<Event Id="2074073782" Name="Player_Damage" ObjectPath="\Events\Characters\Player_Damage"/>
+				<Event Id="2394582229" Name="Player_Dash" ObjectPath="\Events\Characters\Player_Dash"/>
+				<Event Id="2583440997" Name="Player_Fire" ObjectPath="\Events\Characters\Player_Fire"/>
+				<Event Id="4276063004" Name="Player_FS" ObjectPath="\Events\Characters\Player_FS"/>
+				<Event Id="1305133589" Name="Player_Jump" ObjectPath="\Events\Characters\Player_Jump"/>
+				<Event Id="413690608" Name="Portal_Destroy" ObjectPath="\Events\Environment\Portal_Destroy" MaxAttenuation="100.000000"/>
+				<Event Id="3086941384" Name="Portal_Idle" ObjectPath="\Events\Environment\Portal_Idle" MaxAttenuation="100.000000"/>
+				<Event Id="1342784432" Name="ShadowBall_Cast" ObjectPath="\Events\Enemies\ShadowBall_Cast"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="59981377"/>
+				<File Id="72732147"/>
+				<File Id="135045206"/>
+				<File Id="198725847"/>
+				<File Id="510063930"/>
+				<File Id="965040224"/>
+				<File Id="986280041"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="39868255" Language="SFX">
+					<ShortName>ArrowImpact_2.wav</ShortName>
+					<Path>SFX\ArrowImpact_2_838B90F1.wem</Path>
+				</File>
+				<File Id="51567535" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 8.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 8_838B90F1.wem</Path>
+				</File>
+				<File Id="52111445" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 10.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 10_838B90F1.wem</Path>
+				</File>
+				<File Id="79478424" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 3.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 3_838B90F1.wem</Path>
+				</File>
+				<File Id="80966144" Language="SFX">
+					<ShortName>Crossbow_Shot02.wav</ShortName>
+					<Path>SFX\Crossbow_Shot02_79BE5858.wem</Path>
+				</File>
+				<File Id="87374767" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 10.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 10_838B90F1.wem</Path>
+				</File>
+				<File Id="88445052" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 9.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 9_838B90F1.wem</Path>
+				</File>
+				<File Id="89991990" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 5.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 5_838B90F1.wem</Path>
+				</File>
+				<File Id="101204610" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 3.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 3_838B90F1.wem</Path>
+				</File>
+				<File Id="118224429" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 9.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 9_838B90F1.wem</Path>
+				</File>
+				<File Id="118392093" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 1.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 1_838B90F1.wem</Path>
+				</File>
+				<File Id="122572447" Language="SFX">
+					<ShortName>Amb_DevilChords 12.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 12_838B90F1.wem</Path>
+				</File>
+				<File Id="138035394" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 4.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 4_838B90F1.wem</Path>
+				</File>
+				<File Id="139985493" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 13.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 13_838B90F1.wem</Path>
+				</File>
+				<File Id="152526304" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 17.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 17_838B90F1.wem</Path>
+				</File>
+				<File Id="165828666" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 4.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 4_838B90F1.wem</Path>
+				</File>
+				<File Id="170775920" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 3.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 3_838B90F1.wem</Path>
+				</File>
+				<File Id="172667107" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 15.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 15_838B90F1.wem</Path>
+				</File>
+				<File Id="176379649" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 7.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 7_838B90F1.wem</Path>
+				</File>
+				<File Id="209314753" Language="SFX">
+					<ShortName>Amb_DevilChords 8.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 8_838B90F1.wem</Path>
+				</File>
+				<File Id="218543721" Language="SFX">
+					<ShortName>ArrowImpact_Stone.wav</ShortName>
+					<Path>SFX\ArrowImpact_Stone_838B90F1.wem</Path>
+				</File>
+				<File Id="224550855" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 4.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 4_838B90F1.wem</Path>
+				</File>
+				<File Id="237321391" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 1.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 1_838B90F1.wem</Path>
+				</File>
+				<File Id="267249292" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 2.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 2_838B90F1.wem</Path>
+				</File>
+				<File Id="268333408" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 9.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 9_838B90F1.wem</Path>
+				</File>
+				<File Id="288132391" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 7.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 7_838B90F1.wem</Path>
+				</File>
+				<File Id="294077006" Language="SFX">
+					<ShortName>Leah_Damage_02.wav</ShortName>
+					<Path>SFX\Leah_Damage_02_838B90F1.wem</Path>
+				</File>
+				<File Id="312141768" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 8.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 8_838B90F1.wem</Path>
+				</File>
+				<File Id="326343281" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 8.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 8_838B90F1.wem</Path>
+				</File>
+				<File Id="327500681" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 11.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 11_838B90F1.wem</Path>
+				</File>
+				<File Id="342722884" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 4.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 4_838B90F1.wem</Path>
+				</File>
+				<File Id="350683127" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 8.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 8_838B90F1.wem</Path>
+				</File>
+				<File Id="368061832" Language="SFX">
+					<ShortName>Amb_DevilChords 1.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 1_838B90F1.wem</Path>
+				</File>
+				<File Id="371847632" Language="SFX">
+					<ShortName>Amb_DevilChords 4.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 4_838B90F1.wem</Path>
+				</File>
+				<File Id="381632564" Language="SFX">
+					<ShortName>Amb_DevilChords 2.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 2_838B90F1.wem</Path>
+				</File>
+				<File Id="390562461" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 5.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 5_838B90F1.wem</Path>
+				</File>
+				<File Id="402222136" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 2.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 2_838B90F1.wem</Path>
+				</File>
+				<File Id="406883678" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 6.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 6_838B90F1.wem</Path>
+				</File>
+				<File Id="410974865" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 10.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 10_838B90F1.wem</Path>
+				</File>
+				<File Id="411393306" Language="SFX">
+					<ShortName>Amb_DevilChords 11.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 11_838B90F1.wem</Path>
+				</File>
+				<File Id="423498552" Language="SFX">
+					<ShortName>Leah_Damage_05.wav</ShortName>
+					<Path>SFX\Leah_Damage_05_838B90F1.wem</Path>
+				</File>
+				<File Id="428848503" Language="SFX">
+					<ShortName>General_Damage.wav</ShortName>
+					<Path>SFX\General_Damage_838B90F1.wem</Path>
+				</File>
+				<File Id="432260370" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 11.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 11_838B90F1.wem</Path>
+				</File>
+				<File Id="441932823" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 12.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 12_838B90F1.wem</Path>
+				</File>
+				<File Id="442980678" Language="SFX">
+					<ShortName>Amb_DevilChords 9.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 9_838B90F1.wem</Path>
+				</File>
+				<File Id="447824049" Language="SFX">
+					<ShortName>MainExplosion.wav</ShortName>
+					<Path>SFX\MainExplosion_CC34E9FE.wem</Path>
+				</File>
+				<File Id="451334404" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 8.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 8_838B90F1.wem</Path>
+				</File>
+				<File Id="482065282" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 6.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 6_838B90F1.wem</Path>
+				</File>
+				<File Id="502902931" Language="SFX">
+					<ShortName>Leah_Damage_01.wav</ShortName>
+					<Path>SFX\Leah_Damage_01_838B90F1.wem</Path>
+				</File>
+				<File Id="527217619" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 7.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 7_838B90F1.wem</Path>
+				</File>
+				<File Id="547136476" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 6.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 6_838B90F1.wem</Path>
+				</File>
+				<File Id="561086760" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 6.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 6_838B90F1.wem</Path>
+				</File>
+				<File Id="571627534" Language="SFX">
+					<ShortName>Amb_DevilChords 6.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 6_838B90F1.wem</Path>
+				</File>
+				<File Id="588437492" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 6.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 6_838B90F1.wem</Path>
+				</File>
+				<File Id="596799484" Language="SFX">
+					<ShortName>Dash_Leather_1.wav</ShortName>
+					<Path>SFX\Dash_Leather_1_838B90F1.wem</Path>
+				</File>
+				<File Id="611228282" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 3.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 3_838B90F1.wem</Path>
+				</File>
+				<File Id="612133216" Language="SFX">
+					<ShortName>Dash_Wind_2.wav</ShortName>
+					<Path>SFX\Dash_Wind_2_838B90F1.wem</Path>
+				</File>
+				<File Id="624276708" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 14.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 14_838B90F1.wem</Path>
+				</File>
+				<File Id="637348037" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 9.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 9_838B90F1.wem</Path>
+				</File>
+				<File Id="639724504" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 7.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 7_838B90F1.wem</Path>
+				</File>
+				<File Id="645651630" Language="SFX">
+					<ShortName>Dash_Leather_2.wav</ShortName>
+					<Path>SFX\Dash_Leather_2_838B90F1.wem</Path>
+				</File>
+				<File Id="679647489" Language="SFX">
+					<ShortName>Amb_DevilChords 10.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 10_838B90F1.wem</Path>
+				</File>
+				<File Id="681617031" Language="SFX">
+					<ShortName>ArrowFly_2.wav</ShortName>
+					<Path>SFX\ArrowFly_2_838B90F1.wem</Path>
+				</File>
+				<File Id="681931276" Language="SFX">
+					<ShortName>Leah_Damage_03.wav</ShortName>
+					<Path>SFX\Leah_Damage_03_838B90F1.wem</Path>
+				</File>
+				<File Id="682021866" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 4.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 4_838B90F1.wem</Path>
+				</File>
+				<File Id="696471835" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 18.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 18_838B90F1.wem</Path>
+				</File>
+				<File Id="724441074" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 12.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 12_838B90F1.wem</Path>
+				</File>
+				<File Id="731993560" Language="SFX">
+					<ShortName>ArrowFly_3.wav</ShortName>
+					<Path>SFX\ArrowFly_3_838B90F1.wem</Path>
+				</File>
+				<File Id="737539642" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 13.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 13_838B90F1.wem</Path>
+				</File>
+				<File Id="751853384" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 16.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 16_838B90F1.wem</Path>
+				</File>
+				<File Id="752841941" Language="SFX">
+					<ShortName>ArrowImpact.wav</ShortName>
+					<Path>SFX\ArrowImpact_838B90F1.wem</Path>
+				</File>
+				<File Id="766693960" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 5.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 5_838B90F1.wem</Path>
+				</File>
+				<File Id="774585831" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 15.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 15_838B90F1.wem</Path>
+				</File>
+				<File Id="778075329" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 2.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 2_838B90F1.wem</Path>
+				</File>
+				<File Id="788697115" Language="SFX">
+					<ShortName>ArrowImpact_3.wav</ShortName>
+					<Path>SFX\ArrowImpact_3_838B90F1.wem</Path>
+				</File>
+				<File Id="793749492" Language="SFX">
+					<ShortName>Amb_DevilChords 5.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 5_838B90F1.wem</Path>
+				</File>
+				<File Id="829403803" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 3.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 3_838B90F1.wem</Path>
+				</File>
+				<File Id="838405006" Language="SFX">
+					<ShortName>Shadowball_Cast_01.wav</ShortName>
+					<Path>SFX\Shadowball_Cast_01_838B90F1.wem</Path>
+				</File>
+				<File Id="841095384" Language="SFX">
+					<ShortName>FireWhoosh.wav</ShortName>
+					<Path>SFX\FireWhoosh_838B90F1.wem</Path>
+				</File>
+				<File Id="856896090" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 2.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 2_838B90F1.wem</Path>
+				</File>
+				<File Id="857410087" Language="SFX">
+					<ShortName>Dash_Wind_1.wav</ShortName>
+					<Path>SFX\Dash_Wind_1_838B90F1.wem</Path>
+				</File>
+				<File Id="859496377" Language="SFX">
+					<ShortName>FS_Wood_Run\FS_Wood_Run 11.wav</ShortName>
+					<Path>SFX\FS_Wood_Run\FS_Wood_Run 11_838B90F1.wem</Path>
+				</File>
+				<File Id="873423189" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 7.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 7_838B90F1.wem</Path>
+				</File>
+				<File Id="876166957" Language="SFX">
+					<ShortName>Amb_DevilChords 13.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 13_838B90F1.wem</Path>
+				</File>
+				<File Id="908910470" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 1.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 1_838B90F1.wem</Path>
+				</File>
+				<File Id="919451291" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 12.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 12_838B90F1.wem</Path>
+				</File>
+				<File Id="939582993" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 5.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 5_838B90F1.wem</Path>
+				</File>
+				<File Id="942179352" Language="SFX">
+					<ShortName>ArrowFly_1.wav</ShortName>
+					<Path>SFX\ArrowFly_1_838B90F1.wem</Path>
+				</File>
+				<File Id="943163087" Language="SFX">
+					<ShortName>Crossbow_Shot03.wav</ShortName>
+					<Path>SFX\Crossbow_Shot03_932C6748.wem</Path>
+				</File>
+				<File Id="944190458" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 10.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 10_838B90F1.wem</Path>
+				</File>
+				<File Id="946580107" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 11.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 11_838B90F1.wem</Path>
+				</File>
+				<File Id="950110488" Language="SFX">
+					<ShortName>Player_Jump\Player_Jump 1.wav</ShortName>
+					<Path>SFX\Player_Jump\Player_Jump 1_838B90F1.wem</Path>
+				</File>
+				<File Id="963131321" Language="SFX">
+					<ShortName>FS_Tile_Run\FS_Tile_Run 5.wav</ShortName>
+					<Path>SFX\FS_Tile_Run\FS_Tile_Run 5_838B90F1.wem</Path>
+				</File>
+				<File Id="1000065934" Language="SFX">
+					<ShortName>Amb_DevilChords 3.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 3_838B90F1.wem</Path>
+				</File>
+				<File Id="1003410858" Language="SFX">
+					<ShortName>Crossbow_Shot01.wav</ShortName>
+					<Path>SFX\Crossbow_Shot01_6AD86DE5.wem</Path>
+				</File>
+				<File Id="1010915743" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 2.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 2_838B90F1.wem</Path>
+				</File>
+				<File Id="1019759709" Language="SFX">
+					<ShortName>FS_Cement_Run\FS_Cement_Run 1.wav</ShortName>
+					<Path>SFX\FS_Cement_Run\FS_Cement_Run 1_838B90F1.wem</Path>
+				</File>
+				<File Id="1026076240" Language="SFX">
+					<ShortName>Amb_DevilChords 7.wav</ShortName>
+					<Path>SFX\Amb_DevilChords 7_838B90F1.wem</Path>
+				</File>
+				<File Id="1041522304" Language="SFX">
+					<ShortName>PreExplosion.wav</ShortName>
+					<Path>SFX\PreExplosion_26A2A69D.wem</Path>
+				</File>
+				<File Id="1062891227" Language="SFX">
+					<ShortName>Env_Groans_V2\Env_Groans_V2 14.wav</ShortName>
+					<Path>SFX\Env_Groans_V2\Env_Groans_V2 14_838B90F1.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

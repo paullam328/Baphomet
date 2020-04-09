@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	80806219	Amb_Wind_Stop			\Default Work Unit\Amb_Wind_Stop	
+	1439088316	Amb_Wind			\Default Work Unit\Amb_Wind	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1097629074	WindTypes			\Default Work Unit\WindTypes	
+
+Switch	ID	Name	Switch Group			Notes
+	2194252879	Polar	WindTypes			
+	3059984139	Tunnel	WindTypes			
+	3820598650	Willows	WindTypes			
+	3927604762	Grove	WindTypes			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	111857556	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Amb_Wind\Grove\SoundSeed Air Wind	
+	606150867	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Amb_Wind\Polar Winds\SoundSeed Air Wind	
+	663109749	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Amb_Wind\Eerie Tunnel\SoundSeed Air Wind	
+	675627263	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Amb_Wind\Weeping Willows\SoundSeed Air Wind	
+
